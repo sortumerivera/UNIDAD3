@@ -1,0 +1,36 @@
+body {
+  padding: 2%;
+  color: black;
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: burlywood;
+}
+
+div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.field,
+textarea {
+  margin: 0 0.5em 1em 0;
+  padding: 0.5m 1em;
+  border: 1px solid #ccc;
+}
+
+.field {
+  width: 45%;
+  flex: 1 0 40%;
+}
+
+textarea {
+  width: 90%;
+  flex: 1 0 90%;
+}
+
+.button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #84674b;
+  color: #fff;
+}
